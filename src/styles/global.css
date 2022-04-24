@@ -1,0 +1,38 @@
+@tailwind base;
+
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avira";
+  src: url("/assets/fonts/avira/AvenirLTStd-Black.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avira";
+  src: url("/assets/fonts/avira/AvenirLTStd-Black.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+body{
+  font-family: "Avira";
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+hr{
+  border-top: 1px solid gray;
+}
