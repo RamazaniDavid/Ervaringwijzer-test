@@ -50,13 +50,12 @@ const EmailForm = (props: IEmailFormProps) => {
 
   return (
     <div className="flex flex-col text-left">
-      <h3 className="font-bold">Gratis account aanmaken</h3>
-      <form onSubmit={handleSubmit(onSubmit)} className="w-full ">
+      <h3 className="mb-4 -mt-9 text-center text-2xl font-bold text-[#082446] md:text-left lg:text-[22px]">
+        Gratis account aanmaken
+      </h3>
+      <form onSubmit={handleSubmit(onSubmit)} className="w-full text-[#082446]">
         <div className="mb-6">
-          <label
-            htmlFor="firstName"
-            className="mb-1 inline-block text-gray-700"
-          >
+          <label htmlFor="firstName" className="mb-1 inline-block text-[17px]">
             Voornaam *
           </label>
           <input
@@ -76,7 +75,7 @@ const EmailForm = (props: IEmailFormProps) => {
           )}
         </div>
         <div className="mb-6">
-          <label htmlFor="lastName" className="mb-1 inline-block text-gray-700">
+          <label htmlFor="lastName" className="mb-1 inline-block  text-[17px]">
             Achternaam *
           </label>
           <input
@@ -96,7 +95,7 @@ const EmailForm = (props: IEmailFormProps) => {
           )}
         </div>
         <div className="mb-6">
-          <label htmlFor="duty" className="mb-1 inline-block text-gray-700">
+          <label htmlFor="duty" className="mb-1 inline-block  text-[17px]">
             Functie *
           </label>
           <input
@@ -116,7 +115,7 @@ const EmailForm = (props: IEmailFormProps) => {
           )}
         </div>
         <div className="mb-6">
-          <label htmlFor="email" className="mb-1 inline-block text-gray-700">
+          <label htmlFor="email" className="mb-1 inline-block  text-[17px]">
             E-mailadres *
           </label>
           <input
@@ -151,10 +150,10 @@ const EmailForm = (props: IEmailFormProps) => {
         <NormalButton
           type="submit"
           onClick={() => {}}
-          className="mt-8 disabled:cursor-not-allowed disabled:bg-gray-300"
+          className="mt-8 w-10/12 disabled:cursor-not-allowed disabled:bg-gray-300"
           disabled={!isCaptchaValid}
         >
-          Probeer gratis
+          Verstuur
         </NormalButton>
       </form>
     </div>
