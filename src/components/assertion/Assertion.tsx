@@ -46,11 +46,11 @@ const Assertion = () => {
                   className="max-h-[120px] max-w-[120px]"
                 />
               </div>
-              <div className="basis-2/3 text-left md:-mt-4 md:text-center">
-                <h3 className="text-lg font-bold text-[#082446] md:text-lg 2xl:text-2xl">
+              <div className="flex basis-2/3 flex-col text-left md:-mt-4 md:text-center">
+                <h3 className="flex-1 text-lg font-bold text-[#082446] md:text-lg 2xl:text-2xl">
                   {assertion.title}
                 </h3>
-                <p className="mt-4 text-[17px] font-normal text-[#5E7187]">
+                <p className="mt-4 flex-1 text-[17px] font-normal text-[#5E7187]">
                   {assertion.description}
                 </p>
               </div>
