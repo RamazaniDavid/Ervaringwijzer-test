@@ -23,10 +23,10 @@ const Customer = (props: ICustomerProps) => {
           ${props.hoverStyle}
         }
       `}</style>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap ">
         <img
           src={props.logo}
-          className={`w-full${props.className ? ` ${props.className}` : ''}`}
+          className={`w-full ${props.className ? ` ${props.className}` : ''}`}
           alt={props.name}
           id={`${props.name.replace(/\s+/g, '-')}-Logo`}
           title={props.name}

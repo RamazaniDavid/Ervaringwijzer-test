@@ -14,7 +14,9 @@ const Roadmap = () => {
       title: 'Inventariseer systemen',
       description: `Met welke systemen wil je Ervaringwijzer koppelen? De mogelijkheden zijn eindeloos!`,
       image: `${router.basePath}/assets/images/roadmap/step-1.png`,
-      className: '',
+      className: 'md:flex-row-reverse',
+      imageContainerClassName: '',
+      imageClassName: 'h-[187px] lg:h-[400px]',
     },
     {
       name: 'Stap #2',
@@ -22,7 +24,9 @@ const Roadmap = () => {
       title: 'Ontwikkel onderzoeken',
       description: `Ontwerp vragenlijsten en richt het proces van versturen in hoe je de doelgroep wil benaderen.`,
       image: `${router.basePath}/assets/images/roadmap/step-2.png`,
-      className: 'md:flex-row-reverse',
+      className: '',
+      imageContainerClassName: '',
+      imageClassName: 'h-[126px] lg:h-[268px]',
     },
     {
       name: 'Stap #3',
@@ -30,7 +34,7 @@ const Roadmap = () => {
       title: 'Koppel met onze API',
       description: `Onze koppeling is zo geschreven dat in no time we met andere systemen kunnen praten.`,
       image: `${router.basePath}/assets/images/roadmap/step-3.png`,
-      className: '',
+      className: 'md:flex-row-reverse',
       imageContainerClassName: 'bg-[#082446]',
     },
   ];
@@ -41,7 +45,7 @@ const Roadmap = () => {
         <div className="flex flex-col items-center justify-center">
           <h3
             data-aos="fade-up"
-            className="text-lg font-extrabold text-[#082446] md:text-2xl 2xl:text-4xl"
+            className=" text-2xl font-semibold  text-[#082446] lg:font-extrabold 2xl:text-4xl"
           >
             Koppel in 3 stappen
           </h3>

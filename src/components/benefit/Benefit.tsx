@@ -29,18 +29,18 @@ const Benefit = () => {
         <div className="flex flex-col justify-around gap-24 md:flex-row  2xl:gap-40">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex flex-1 flex-row gap-6 md:flex-col">
-              <div className="flex w-full basis-1/3 place-content-center ">
+              <div className="flex w-full basis-1/3 place-content-center place-self-center ">
                 <img
                   src={benefit.icon}
                   alt={benefit.title}
-                  className="max-h-[120px] max-w-[120px]"
+                  className="h-[100px]  w-[100px] lg:h-[150px]  lg:w-[150px]"
                 />
               </div>
               <div className="basis-2/3 text-left md:text-center">
-                <h3 className="text-lg font-medium text-[#082446] md:text-lg 2xl:text-2xl">
+                <h3 className="text-[17px] font-semibold text-[#082446]  2xl:text-2xl">
                   {benefit.title}
                 </h3>
-                <p className="mt-4 font-normal text-[#5E7187] ">
+                <p className="mt-4 text-[14px] font-normal text-[#5E7187] lg:text-[17px] ">
                   {benefit.description}
                 </p>
               </div>

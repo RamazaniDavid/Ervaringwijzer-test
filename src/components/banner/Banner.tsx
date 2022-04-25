@@ -59,12 +59,12 @@ const Banner = () => {
       <div className="mx-auto mt-24 max-w-screen-2xl px-4 xl:px-16">
         <div className="grid grid-flow-row grid-rows-2 gap-8 py-6 sm:grid-flow-col-dense sm:grid-cols-2 sm:py-16 md:grid-rows-1 ">
           <div className="flex flex-col items-start justify-center sm:row-start-1">
-            <h1 className="text-left text-2xl  font-extrabold  leading-normal text-[#082446] lg:text-[42px]">
+            <h1 className="text-left text-3xl font-semibold leading-normal  text-[#082446] lg:text-[42px] lg:font-extrabold">
               Koppel Ervaringwijzer met
               <span className="text-blue-600"> al jouw systemen </span> om
-              geautomatiseerd te onderzoeken..
+              geautomatiseerd te onderzoeken.
             </h1>
-            <p className="mt-4 mb-6 text-left text-lg  text-[#5E7187]">
+            <p className="mt-4 mb-6 text-left text-[17px] font-normal text-[#5E7187]">
               Met de API van Ervaringwijzer automatiseer je alle onderdelen van
               Ervaringwijzer. Creeër, verstuur en zie resultaten van alle
               onderzoeken van ieder deel van de organisatie.
@@ -77,10 +77,10 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="relative flex w-full">
-          <div className="inset-0 w-full bg-white">
+        <div className="relative flex w-full flex-col justify-center">
+          <div className="inset-0 flex w-full flex-col items-center  bg-white text-center">
             <HorzRuleText text="Gebruikt door" />
-            <div className="mb-16 flex justify-center gap-10 lg:mb-28">
+            <div className="mb-2 flex w-10/12 justify-center gap-2 md:w-11/12 md:gap-6 lg:mb-28">
               {customers.map((customer) => (
                 <Customer key={customer.name} {...customer} />
               ))}

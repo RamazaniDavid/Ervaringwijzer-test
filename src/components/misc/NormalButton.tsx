@@ -20,7 +20,7 @@ const NormalButton = (props: IButtonOutlineProps) => {
           props.className ?? ''
         }`}
     >
-      <span className="relative text-[17px] leading-5 text-white">
+      <span className="relative text-[19px] leading-5 text-white md:text-[17px]">
         {props.children}
       </span>
     </button>
