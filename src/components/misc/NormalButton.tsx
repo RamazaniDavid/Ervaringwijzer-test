@@ -14,13 +14,15 @@ const NormalButton = (props: IButtonOutlineProps) => {
       type={props.type}
       onClick={() => props.onClick()}
       disabled={props.disabled}
-      className={`group relative inline-flex w-full items-center justify-center
+      className={`group h-[50px] w-full md:w-[187px] relative inline-flex  items-center justify-center
        overflow-hidden rounded-full p-4 px-5 py-3 font-medium bg-[#16B86A]
-        shadow-xl transition duration-1000 ease-out hover:ring-1 hover:ring-green-500 md:w-fit ${
+        shadow-xl transition duration-1000 ease-out hover:ring-1 hover:ring-green-500  ${
           props.className ?? ''
         }`}
     >
-      <span className="relative text-white">{props.children}</span>
+      <span className="relative text-[17px] leading-5 text-white">
+        {props.children}
+      </span>
     </button>
   );
 };

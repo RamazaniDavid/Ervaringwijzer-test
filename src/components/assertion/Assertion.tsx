@@ -30,7 +30,7 @@ const Assertion = () => {
     <section id="assertion">
       <div className="mx-auto mt-2 max-w-screen-2xl px-4 xl:px-16">
         <div className="my-16 flex w-full flex-col">
-          <h3 className="sm: mx-auto w-9/12 text-center text-xl font-medium leading-normal text-[#082446] md:text-2xl lg:w-5/12 lg:text-4xl">
+          <h3 className="sm: mx-auto w-9/12 text-center text-xl font-extrabold leading-normal text-[#082446] md:text-2xl lg:w-5/12 lg:text-4xl">
             Beheer alles van Ervaringwijzer zonder een{' '}
             <span className="text-blue-600">digitale stap</span> te zetten in
             het dashboard
@@ -50,7 +50,9 @@ const Assertion = () => {
                 <h3 className="text-lg font-bold text-[#082446] md:text-lg 2xl:text-2xl">
                   {assertion.title}
                 </h3>
-                <p className="mt-4 text-[#5E7187] ">{assertion.description}</p>
+                <p className="mt-4 text-[17px] font-normal text-[#5E7187]">
+                  {assertion.description}
+                </p>
               </div>
             </div>
           ))}

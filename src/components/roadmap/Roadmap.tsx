@@ -41,7 +41,7 @@ const Roadmap = () => {
         <div className="flex flex-col items-center justify-center">
           <h3
             data-aos="fade-up"
-            className="text-lg font-bold text-[#082446] md:text-2xl 2xl:text-4xl"
+            className="text-lg font-extrabold text-[#082446] md:text-2xl 2xl:text-4xl"
           >
             Koppel in 3 stappen
           </h3>
@@ -52,7 +52,7 @@ const Roadmap = () => {
           </div>
         </div>
 
-        <div className="mx-auto mt-12 flex justify-center">
+        <div className="mx-auto mt-48 flex justify-center">
           <TryButton />
         </div>
       </div>

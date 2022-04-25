@@ -37,10 +37,12 @@ const Benefit = () => {
                 />
               </div>
               <div className="basis-2/3 text-left md:text-center">
-                <h3 className="text-lg font-bold text-[#082446] md:text-lg 2xl:text-2xl">
+                <h3 className="text-lg font-medium text-[#082446] md:text-lg 2xl:text-2xl">
                   {benefit.title}
                 </h3>
-                <p className="mt-4 text-[#5E7187] ">{benefit.description}</p>
+                <p className="mt-4 font-normal text-[#5E7187] ">
+                  {benefit.description}
+                </p>
               </div>
             </div>
           ))}

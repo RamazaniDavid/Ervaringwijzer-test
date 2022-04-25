@@ -6,7 +6,9 @@ const Summary = () => {
   return (
     <section id="summary">
       <div className="mx-auto mt-48 flex flex-col items-center gap-12 ">
-        <h3 className="text-3xl text-[#082446]">Samen Wijzer Worden?</h3>
+        <h3 className="text-4xl font-extrabold text-[#082446]">
+          Samen Wijzer Worden?
+        </h3>
         <TryButton />
       </div>
     </section>

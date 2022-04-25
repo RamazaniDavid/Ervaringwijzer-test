@@ -21,12 +21,14 @@ const Step = (props: IStepProps) => {
     >
       <div className="flex basis-1/3 flex-col justify-center">
         <h3
-          className={`font-bold text-2xl  2xl:text-4xl xl:text-3xl ${props.nameClassName}`}
+          className={`font-extrabold text-2xl  2xl:text-4xl xl:text-3xl ${props.nameClassName}`}
         >
           {props.name}
         </h3>
-        <h4 className="text-2xl font-medium text-[#082446]">{props.title}</h4>
-        <p className="mt-4 font-extralight text-[#5E7187]">
+        <h4 className="text-2xl font-bold text-[#082446]  xl:text-3xl 2xl:text-4xl">
+          {props.title}
+        </h4>
+        <p className="mt-4 text-[17px] font-normal text-[#5E7187]">
           {props.description}
         </p>
       </div>

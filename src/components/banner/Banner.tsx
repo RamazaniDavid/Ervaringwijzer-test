@@ -59,12 +59,12 @@ const Banner = () => {
       <div className="mx-auto mt-24 max-w-screen-2xl px-4 xl:px-16">
         <div className="grid grid-flow-row grid-rows-2 gap-8 py-6 sm:grid-flow-col-dense sm:grid-cols-2 sm:py-16 md:grid-rows-1 ">
           <div className="flex flex-col items-start justify-center sm:row-start-1">
-            <h1 className="text-left  text-2xl font-medium leading-normal text-[#082446] lg:text-4xl xl:text-5xl">
+            <h1 className="text-left text-2xl  font-extrabold  leading-normal text-[#082446] lg:text-[42px]">
               Koppel Ervaringwijzer met
               <span className="text-blue-600"> al jouw systemen </span> om
               geautomatiseerd te onderzoeken..
             </h1>
-            <p className="mt-4 mb-6 text-left  text-[#5E7187]">
+            <p className="mt-4 mb-6 text-left text-lg  text-[#5E7187]">
               Met de API van Ervaringwijzer automatiseer je alle onderdelen van
               Ervaringwijzer. Creeër, verstuur en zie resultaten van alle
               onderzoeken van ieder deel van de organisatie.
