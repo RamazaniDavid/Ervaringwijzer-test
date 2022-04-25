@@ -61,7 +61,7 @@ const Banner = () => {
           <div className="flex flex-col items-start justify-center sm:row-start-1">
             <h1 className="text-left text-3xl font-semibold leading-normal  text-[#082446] lg:text-[42px] lg:font-extrabold">
               Koppel Ervaringwijzer met
-              <span className="text-blue-600"> al jouw systemen </span> om
+              <span className="text-[#0085ff]"> al jouw systemen </span> om
               geautomatiseerd te onderzoeken.
             </h1>
             <p className="mt-4 mb-6 text-left text-[17px] font-normal text-[#5E7187]">

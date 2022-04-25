@@ -32,7 +32,7 @@ const Assertion = () => {
         <div className="my-16 flex w-full flex-col">
           <h3 className="sm: mx-auto w-9/12 text-center text-2xl font-semibold leading-normal text-[#082446] lg:w-5/12 lg:text-4xl lg:font-extrabold">
             Beheer alles van Ervaringwijzer zonder een{' '}
-            <span className="text-blue-600">digitale stap</span> te zetten in
+            <span className="text-[#0085ff]">digitale stap</span> te zetten in
             het dashboard
           </h3>
         </div>
